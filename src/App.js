@@ -30,7 +30,7 @@ class App extends PureComponent {
     .then(response => response.json())
     .then((responseJSON) => { 
       this.setState({ projects: responseJSON, isFetching: false })
-    })
+    });
   }
 
   render () {
