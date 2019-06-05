@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+div {
+  white-space: pre-wrap;
+} 
+
 .spinner-custom {
   display: block;
   position: fixed;
