@@ -1,4 +1,4 @@
-# ePortfolio
+# ePortfolio
 
 Made with React and Bootstrap, need an api backend
 
@@ -26,13 +26,13 @@ const env = {
 
 The backend api need to return this json:
 
-```[{
+``` [{
   githuburl: "https://github.com/yourLogin/yourRepo",
   imgurl: "a screenshot url of the project",
   onlineurl: "your project deployment url",
   text: "Comment your app here",
   title: "project title",
-  },]```
+  },] ```
 
 
 
